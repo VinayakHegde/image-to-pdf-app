@@ -1,0 +1,58 @@
+@import "kendo.common.min.css";
+@import "kendo.default.min.css";
+
+#CreatePDF{
+    margin: .8em;
+    position: absolute;
+    z-index: 1;
+    margin-left: 140px;
+}
+#advice{
+    position: absolute;
+    z-index: 1;
+    margin: 1.3em;
+    margin-left: 240px;
+}
+
+.numberField{
+	position: absolute;
+    z-index: 1;
+}
+
+li.k-file{
+	border: 2px inset black !important;
+}
+.k-filename{
+	cursor: pointer;
+	max-width: 100%;
+    position: relative;
+    left: 50%;
+	margin-left: -400px;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.preview{
+    padding: 5px;
+    border-top: 2px inset black;
+}
+
+.preview img{
+    position: relative;
+    left: 50%;
+    margin-left: -400px;
+    border-radius: 1%;
+    border: 1px inset black;
+}
+
+@-webkit-keyframes pulse {
+	from { opacity: 0.3;}
+	50% { opacity: 1.0;}
+	to { opacity: 0.3;}
+}
+.pulser{
+	color: rgba(255,255,255,0.3);
+	-webkit-animation-name: pulse;
+	-webkit-animation-duration: 2s;
+	-webkit-animation-iteration-count: infinite;
+}
